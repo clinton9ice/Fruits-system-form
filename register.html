@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./assets/css/ci-modal.css">
+    <link rel="stylesheet" href="./assets/css/fm.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container-fluid">
+            <div class="d-flex  align-content-center content-wrapper">
+                <div class="ads-section">
+                    <div class="ads-banner">
+                        <div class="tag my-3 fw-bold">The Benefit of fruits</div>
+
+                        <div class="ads-content">
+                            <h3 class="small mb-2 text-white">Fruit function</h3>
+                            <h3 class="text-white">Get Your Body Nourished.</h3>
+                            <p class="mt-2">Ever wonder why some people's skin never age,
+                                or keeps glowing like you're older than them? well the secret is behind your diet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <div class="container m-auto">
+                        <h3 class="title">Sign Up</h3>
+                        <p class="mb-5">I already have an accont? <a href="login.html" class="link">Sign In</a></p>
+                        <form action="" class="register-form" form-default="false">
+                            <div class="form-group">
+                                <label for="email" class="label"> Email</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name" class="label"> Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter your Full name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="label"> Password</label>
+                                <input app-type="password" type="password" name="password" class="form-control"
+                                    placeholder="Create your Password" required>
+                            </div>
+
+                            <div class="btn-container">
+                                <button class="btn row m-auto align-items-center btn-block btn-success rounded active"
+                                    app-event="register">Sign
+                                    Up <i class="bi bi-arrow-right ml-3"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <br />
+                        <div class="divider text-center my-4">
+                            <hr>
+                            <span>Or</span>
+                        </div>
+                        <button type="button" class="btn btn-block btn-outline-danger">
+                            <i class="bi bi-google mr-2"></i>
+                            <span>Continue with Google</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/cl-modal.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
